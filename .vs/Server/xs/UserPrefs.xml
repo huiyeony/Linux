@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{04773241-96F1-4AAB-96AF-D03D89438BBD}|Default">
+  <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PacketGenerator PreferredExecutionTarget="MonoDevelop.Default" />
+  <DisabledProjects>
+    <String>../DummyClients/DummyClients.csproj</String>
+  </DisabledProjects>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="여러 프로젝트" Name="여러 프로젝트">
+      <Items>
+        <StartupItem ItemId="{52C6D4C8-9444-4352-A21C-C081F459F824}" ItemName="DummyClient" ConfigurationId="Default" />
+        <StartupItem ItemId="{04773241-96F1-4AAB-96AF-D03D89438BBD}" ItemName="Server" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Room/GameRoom.cs">
+    <Files>
+      <File FileName="Object/GameObject.cs" Line="130" Column="29" />
+      <File FileName="Object/Player.cs" Line="26" Column="59" />
+      <File FileName="Game/Room/GameRoom.cs" Line="187" Column="21" />
+      <File FileName="Object/Resource.cs" Line="60" Column="18" />
+      <File FileName="Object/Arrow.cs" Line="50" Column="1" />
+      <File FileName="Program.cs" Line="89" Column="32" />
+      <File FileName="Game/Room/Zone.cs" Line="64" Column="10" />
+      <File FileName="Game/Room/VisionCube.cs" Line="127" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Server" expanded="True">
+            <Node name="DummyClient" expanded="True">
+              <Node name="Packet" expanded="True" />
+              <Node name="Session" expanded="True" />
+            </Node>
+            <Node name="PacketGenerator" expanded="True" />
+            <Node name="Server" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Db" expanded="True" />
+              <Node name="Game" expanded="True">
+                <Node name="Job" expanded="True" />
+                <Node name="Room" expanded="True">
+                  <Node name="GameRoom.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Item" expanded="True" />
+              <Node name="Object" expanded="True" />
+              <Node name="Packet" expanded="True" />
+              <Node name="Session" expanded="True" />
+            </Node>
+            <Node name="ServerCore" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
